@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BitHelpers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+
+  <body>  <div id="brightenOverlay" style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    transition: opacity 1s;
+    opacity: 1;
+  "></div>
+    <canvas id="glCanvas"></canvas>
+    <script type="module" src="/src/main.js"></script>
+<!-- Background Music (Plays only on index.html) -->
+<audio id="bgAudio" loop>
+  <source src="/sounds/theme.mp3" type="audio/mp3" />
+  Your browser does not support the audio tag.
+</audio>
+
+<!-- Mute/Unmute Button -->
+<button id="audioToggle" style="
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+">🔇 Unmute</button>
+
+<script>
+  window.addEventListener('load', () => {
+    const overlay = document.getElementById('brightenOverlay');
+    overlay.style.opacity = '0';
+    setTimeout(() => {
+      overlay.remove();
+    }, 1000); // remove after fade
+  });
+</script>
+  </body>
+
+
+
+
+  <div class="floating-label" style="min-width: 900px; margin: 0 ; text-align: justify; padding: 10px;">
+    <h1 style="text-align: center;">StepQuest</h1>
+    <p style="text-align: center;">Turn the chaos of college life into fun, bite-sized quests that guide you through paperwork, rules, and hidden resources with ease.</p>
+    <br>
+    <ul style="list-style-type: none;padding-left: 20px; padding-right: 20px">
+      <br>  <li>📜 <strong>Ancient Scrolls</strong> – Decode tricky documents into simple, student-friendly explanations.</li>
+      <li>🦖 <strong>Dino Hunt</strong> – Learn local laws through a playful, bot-led scavenger adventure.</li>
+      <li>🔥 <strong>Quest for Campus Embers</strong> – Unlock campus resources, earn points, and score rewards like free ice cream!</li>
+    </ul>
+    <p style="text-align: center; margin-top: 5px;">By F4orce</p>
+  </div>
+  
+  
+  
+  <script>
+    const audio = document.getElementById('bgAudio');
+    const toggleBtn = document.getElementById('audioToggle');
+  
+    // Ensure audio starts automatically when index.html is loaded
+    window.addEventListener('DOMContentLoaded', () => {
+      // Allow audio only on user interaction (for autoplay policies)
+      document.body.addEventListener('click', () => {
+        if (audio.paused) {
+          audio.play();
+          toggleBtn.textContent = '🔊 Mute';
+        }
+      }, { once: true });
+    });
+  
+    // Toggle mute/unmute
+    toggleBtn.addEventListener('click', () => {
+      if (audio.muted || audio.paused) {
+        audio.muted = false;
+        audio.play();
+        toggleBtn.textContent = '🔊 Mute';
+      } else {
+        audio.muted = true;
+        toggleBtn.textContent = '🔇 Unmute';
+      }
+    });
+  </script>
+<div id="dinoWrapper">
+  <img src="/icons/chill.gif" id="dinoGif" />
+  <div id="dinoSpeech">Hi! I'm Dino. Meet our team!</div>
+</div>
+
+<script>
+  const names = ["Shreya", "Aditi", "Sumiran", "Hai"];
+  const speechBubble = document.getElementById("dinoSpeech");
+  let i = 0;
+
+  setInterval(() => {
+    speechBubble.innerText = `Hi! I'm Dino. This is ${names[i]} 👋`;
+    i = (i + 1) % names.length;
+  }, 3000);
+</script>
+
+
+</html>

@@ -1,0 +1,28 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #ff9966, #ff5e62, #7b4397, #2c3e50);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  display: block;
+  z-index: 1;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url('/icon/background.jpg') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}

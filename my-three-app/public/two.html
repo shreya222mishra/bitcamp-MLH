@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Two</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 20%;
+      background: #f0f0f0;
+    }
+    .back-button {
+      margin-top: 2em;
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .back-button:hover {
+      background: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Page: Two</h1>
+  <button class="back-button" onclick="goBack()">Back to Home</button>
+
+  <script>
+    function goBack() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F4orce Loading</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #bgVideo1 {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: 0;
+      transition: opacity 1s ease;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      color: white;
+      font-size: 3rem;
+      font-family: 'Arial Black', sans-serif;
+      transition: opacity 1s ease;
+    }
+
+    .fade-out {
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop id="bgVideo1">
+    <source src="/shot1.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay">
+    <h1>F4orce</h1>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      document.getElementById('bgVideo1').classList.add('fade-out');
+      document.querySelector('.overlay').classList.add('fade-out');
+
+      // Wait for fade to complete, then redirect
+      setTimeout(() => {
+        window.location.href = "/index2.html";
+      }, 1000); // match fade-out duration
+    }, 5000); // 5-second display before fade starts
+  </script>
+</body>
+</html>

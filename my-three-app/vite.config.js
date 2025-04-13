@@ -1,9 +1,9 @@
 // vite.config.js
 import { defineConfig } from "vite";
-
-export default defineConfig({
-  base: "./", // ensures relative paths work even in nested folders
+export default {
   server: {
-    port: 5173,
-  },
-});
+    allowedHosts: ['apeye.tech', 'www.apeye.tech'],
+    host: '0.0.0.0',
+    port: 5173
+  }
+}

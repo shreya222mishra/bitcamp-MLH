@@ -92,7 +92,7 @@ loader.load('./main scene.glb', (gltf) => {
 function addCaveIcons() {
   const iconData = [
     { x: 25, y: 19, z: 35, link: 'http://44.211.165.224:3000/', texture: '/icons/cave.png', title: '𐂃 Ancient Scroll' },
-    { x: 45, y: 19, z: 8, link: '/two.html', texture: '/icons/cave.png', title: '🔥 Quest For Campus Embers 🔥' },
+    { x: 45, y: 19, z: 8, link: 'http://3.235.126.25/', texture: '/icons/cave.png', title: '🔥 Quest For Campus Embers 🔥' },
     { x: 75, y: 12, z: 30, link: 'http://3.149.228.61:3000/', texture: '/icons/cave.png', title: '𓂀 Dino Law 𓃰' },
   ];
 

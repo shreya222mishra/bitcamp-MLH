@@ -34,51 +34,36 @@ Version Control: GitHub + pure survival instincts
 Here’s how to bring the island to life on your own local machine:
 
 1. Clone the Main Repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. Navigate to the Web App Folder
-bash
-Copy
-Edit
-cd my-three-app
-3. Install Dependencies
-bash
-Copy
-Edit
-npm install
-4. Start the Development Server
-bash
-Copy
-Edit
-npm run dev
-Once it’s running, open this in your browser:
 
-arduino
-Copy
-Edit
+2. Navigate to the Web App Folder
+cd my-three-app
+
+4. Install Dependencies
+npm install
+
+6. Start the Development Server
+npm run dev
+
+Once it’s running, open this in your browser:
 http://localhost:5173/
+
+
 🔗 Link Subservices to Your App
 1. Clone the Subservices
 Open a terminal and run:
 
-bash
-Copy
-Edit
 git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
 git clone https://github.com/mikele5895/bitcamp-dino-laws-microservice
 git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice
+
 2. Run Subservices (Follow Their Individual README Setup)
 Each service will expose a REST API endpoint (usually something like http://localhost:8000/endpoint)
 
 3. Update index2.html with Live Service Links
 Replace placeholder or mock links in your index2.html with the actual endpoints. For example:
 
-html
-Copy
-Edit
 <!-- OLD -->
 <!-- <a href="/quest.html"> -->
 

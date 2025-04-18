@@ -44,6 +44,28 @@ cd your-repo-name</code></pre>
   <div class="section">
     <h2>🔗 Integrate Subservices</h2>
 
+    Here’s how to bring the island to life on your own local machine:
+
+1. Clone the Main Repositor
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+3. Navigate to the Web App Folder
+cd my-three-app
+
+4. Install Dependencies
+npm install
+
+6. Start the Development Server
+npm run dev
+
+Once it’s running, open this in your browser:
+http://localhost:5173/
+
+  </div>
+<div class="section">
+    <h2>🔗 Integrate Subservices</h2>
+
     <h3>Clone Each Microservice</h3>
     <pre><code>git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
 git clone https://github.com/mikele5895/bitcamp-dino-laws-microservice

@@ -9,17 +9,18 @@
 
   <div class="section">
     <h2>💥 Features</h2>
+    
 🔥 Quest for Campus Embers
 Gamify your daily routines! Log workouts, track meals, and become a lava leaderboard legend.
-Clone and integrate from: Quest for Campus Embers https://github.com/Aditi08302/Quest-For-Campus-Embers
+Clone and integrate from: Quest for Campus Embers https://github.com/Aditi08302/Quest-For-Campus-Embers <br>
 
 🦖 DinoLaws
 Drop your location and receive simple, fun legal/campus policy explanations. Perfect for cavemen and students alike!
-Clone and integrate from: DinoLaw Microservice https://github.com/mikele5895/bitcamp-dino-laws-microservice
+Clone and integrate from: DinoLaw Microservice https://github.com/mikele5895/bitcamp-dino-laws-microservice <br>
 
 📜 Ancient Scrolls
 Upload notes, get TL;DRs and creative project ideas—plus get narrated guidance from a caveman mentor.
-Clone and integrate from: Ancient Scrolls Microservice https://github.com/sumi0309/bitcamp-ancient-scroll-microservice
+Clone and integrate from: Ancient Scrolls Microservice https://github.com/sumi0309/bitcamp-ancient-scroll-microservice <br>
    
 
   <div class="section">

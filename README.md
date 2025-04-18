@@ -77,9 +77,16 @@ Replace placeholder or mock links in your index2.html with the actual endpoints.
   <div class="section">
     <h2>📚 Lessons Learned</h2>
     <ul>
-      <li>Prompt engineering = powerful results</li>
-      <li>Good UX is empathy-driven</li>
-      <li>We all wore many hats (and loincloths)</li>
+<li>Humor + UI/UX = ❤️
+</li>li
+      <li>
+Prompt design makes or breaks your AI results</li>
+      <li>
+
+Anyone can become a full stack developer in 24 hours with enough delulu and teammates
+</li>
+      <li>
+Great hacks happen when everyone lifts each other up</li>
     </ul>
   </div>
 

@@ -59,19 +59,9 @@ Each service will expose a REST API endpoint (usually something like http://loca
 
 3. Update index2.html with Live Service Links
 Replace placeholder or mock links in your index2.html with the actual endpoints. For example:
-
-
-
-   
-
-    <!-- OLD -->
-<!-- <a href="/quest.html"> -->
-
-<!-- NEW -->
-<a href="http://localhost:8000/quest"> <!-- Quest for Campus Embers -->
-<a href="http://localhost:8001/dino-laws"> <!-- DinoLaws -->
-<a href="http://localhost:8002/ancient-scrolls"> <!-- Ancient Scrolls -->
-
+<pre><code>&lt;a href="http://localhost:8000/quest"&gt;Quest for Campus Embers&lt;/a&gt;
+&lt;a href="http://localhost:8001/dino-laws"&gt;DinoLaws&lt;/a&gt;
+&lt;a href="http://localhost:8002/ancient-scrolls"&gt;Ancient Scrolls&lt;/a&gt;</code></pre>
   </div>
 
   <div class="section">

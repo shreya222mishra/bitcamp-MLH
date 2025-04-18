@@ -25,18 +25,19 @@ Clone and integrate from: Ancient Scrolls Microservice https://github.com/sumi03
 
   <div class="section">
     <h2>🛠 Setup Guide</h2>
+    1. Clone the Main Repository
 
-    <h3>1. Clone the Main Repository</h3>
     <pre><code>git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name</code></pre>
+    cd your-repo-name</code>
+  2. Navigate to the App Folde
 
-    <h3>2. Navigate to the App Folder</h3>
+
     <pre><code>cd my-three-app</code></pre>
+  3. Install Dependencie
 
-    <h3>3. Install Dependencies</h3>
     <pre><code>npm install</code></pre>
+  4. Start the Development Server
 
-    <h3>4. Start the Development Server</h3>
     <pre><code>npm run dev</code></pre>
     <p>Visit: <code>http://localhost:5173/</code> to view the app.</p>
   </div>
@@ -44,32 +45,16 @@ cd your-repo-name</code></pre>
   <div class="section">
     <h2>🔗 Integrate Subservices</h2>
 
-    Here’s how to bring the island to life on your own local machine:
-
-1. Clone the Main Repositor
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-3. Navigate to the Web App Folder
-cd my-three-app
-
-4. Install Dependencies
-npm install
-
-6. Start the Development Server
-npm run dev
-
-Once it’s running, open this in your browser:
-http://localhost:5173/
-
   </div>
 <div class="section">
     <h2>🔗 Integrate Subservices</h2>
 
     <h3>Clone Each Microservice</h3>
     <pre><code>git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
-git clone https://github.com/mikele5895/bitcamp-dino-laws-microservice
-git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice</code></pre>
+    git clone https://github.com/mikele5895/bitcamp-dino-laws-microservice
+    git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice</code></pre>
+
+
 
     <h3>Update <code>index2.html</code> Links</h3>
     <pre><code>&lt;a href="http://localhost:8000/quest"&gt;Quest for Campus Embers&lt;/a&gt;

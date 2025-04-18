@@ -78,7 +78,7 @@ Replace placeholder or mock links in your index2.html with the actual endpoints.
     <h2>📚 Lessons Learned</h2>
     <ul>
 <li>Humor + UI/UX = ❤️
-</li>li
+</li>
       <li>
 Prompt design makes or breaks your AI results</li>
       <li>

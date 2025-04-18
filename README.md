@@ -1,108 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API: A Prehistoric Island - README</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem;
+      background: #fcf7f0;
+      color: #222;
+    }
+    h1, h2, h3 {
+      color: #3b3a36;
+    }
+    code {
+      background: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background: #eee;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    a {
+      color: #d95d39;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
 
+  <h1>🦕 API: A Prehistoric Island</h1>
+  <p>Welcome to <strong>API</strong> – not just your regular Application Programming Interface – but a <strong>Prehistoric Island</strong> where <strong>Achievement</strong>, <strong>Protection</strong>, and <strong>Inspiration</strong> rule the lava fields.</p>
+  <p>This hackathon-built app gamifies college life through games, tools, and dino-vibes. Whether you’re a healthy habit hunter, law-abiding caveman, or scholarly scroll reader, there's a tribe for you!</p>
 
-🦕 API: A Prehistoric Island
-Welcome to API – not just your regular Application Programming Interface – but a Prehistoric Island where Achievement, Protection, and Inspiration rule the lava fields.
-Built during a caffeine-fueled hackathon with a prehistoric twist, this app gamifies campus life through mini-games, smart tools, and dino-mite vibes.
+  <div class="section">
+    <h2>🧭 Features</h2>
+    <h3>🔥 Quest for Campus Embers</h3>
+    <p>Log healthy habits and climb the Lava Leaderboard!<br/>
+    <a href="https://github.com/Aditi08302/Quest-For-Campus-Embers" target="_blank">GitHub Link</a></p>
 
-Whether you’re a hunter of healthy habits, a protector of campus laws, or a seeker of academic scrolls, this island has something for every student-caveman.
+    <h3>🦖 DinoLaws</h3>
+    <p>Enter your location and get fun legal insights, caveman-style!<br/>
+    <a href="https://github.com/mikele5895/bitcamp-dino-laws-microservice" target="_blank">GitHub Link</a></p>
 
-🧭 Features
-🔥 Quest for Campus Embers
-Gamify your daily routines! Log workouts, track meals, and become a lava leaderboard legend.
-Clone and integrate from: Quest for Campus Embers
+    <h3>📜 Ancient Scrolls</h3>
+    <p>Upload notes → get summaries and project ideas, narrated by a caveman.<br/>
+    <a href="https://github.com/sumi0309/bitcamp-ancient-scroll-microservice" target="_blank">GitHub Link</a></p>
+  </div>
 
-🦖 DinoLaws
-Drop your location and receive simple, fun legal/campus policy explanations. Perfect for cavemen and students alike!
-Clone and integrate from: DinoLaw Microservice
+  <div class="section">
+    <h2>🛠 Tech Stack</h2>
+    <ul>
+      <li>Frontend: HTML, CSS, JS, animations</li>
+      <li>Backend: FastAPI + Python on AWS EC2</li>
+      <li>AI: Google Gemini 1.5 Pro</li>
+      <li>Voice Sync: Audio + Animation</li>
+      <li>Version Control: GitHub</li>
+    </ul>
+  </div>
 
-📜 Ancient Scrolls
-Upload notes, get TL;DRs and creative project ideas—plus get narrated guidance from a caveman mentor.
-Clone and integrate from: Ancient Scrolls Microservice
+  <div class="section">
+    <h2>🪨 Setup Guide</h2>
 
-🛠 Tech Stack
-Frontend: HTML, CSS, JavaScript, prehistoric animations
+    <h3>1. Clone the Main Repository</h3>
+    <pre><code>git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name</code></pre>
 
-Backend: FastAPI + Python (deployed on AWS EC2)
+    <h3>2. Navigate to the Web App Folder</h3>
+    <pre><code>cd my-three-app</code></pre>
 
-AI: Google Gemini 1.5 Pro for summarization and creativity
+    <h3>3. Install Dependencies</h3>
+    <pre><code>npm install</code></pre>
 
-Voice Sync: Caveman narration meets scroll animations
+    <h3>4. Start the Development Server</h3>
+    <pre><code>npm run dev</code></pre>
+    <p>Visit: <code>http://localhost:5173/</code> to view the app in action.</p>
+  </div>
 
-Version Control: GitHub + pure survival instincts
+  <div class="section">
+    <h2>🔗 Connect Microservices</h2>
 
-🪨 Setup Guide
-Here’s how to bring the island to life on your own local machine:
-
-1. Clone the Main Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-2. Navigate to the Web App Folder
-cd my-three-app
-
-4. Install Dependencies
-npm install
-
-6. Start the Development Server
-npm run dev
-
-Once it’s running, open this in your browser:
-http://localhost:5173/
-
-
-🔗 Link Subservices to Your App
-1. Clone the Subservices
-Open a terminal and run:
-
-git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
+    <h3>1. Clone the Subservices</h3>
+    <pre><code>git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
 git clone https://github.com/mikele5895/bitcamp-dino-laws-microservice
-git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice
+git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice</code></pre>
 
-2. Run Subservices (Follow Their Individual README Setup)
-Each service will expose a REST API endpoint (usually something like http://localhost:8000/endpoint)
+    <h3>2. Run Each Microservice</h3>
+    <p>Follow their individual <code>README</code> instructions to run them. They’ll start on different ports (e.g., 8000, 8001, 8002).</p>
 
-3. Update index2.html with Live Service Links
-Replace placeholder or mock links in your index2.html with the actual endpoints. For example:
+    <h3>3. Update <code>index2.html</code></h3>
+    <p>Replace placeholder links with the running URLs:</p>
+    <pre><code>&lt;a href="http://localhost:8000/quest"&gt;Quest for Campus Embers&lt;/a&gt;
+&lt;a href="http://localhost:8001/dino-laws"&gt;DinoLaws&lt;/a&gt;
+&lt;a href="http://localhost:8002/ancient-scrolls"&gt;Ancient Scrolls&lt;/a&gt;</code></pre>
+  </div>
 
-<!-- OLD -->
-<!-- <a href="/quest.html"> -->
+  <div class="section">
+    <h2>🏆 Accomplishments</h2>
+    <ul>
+      <li>Fully deployed full-stack services in a single product</li>
+      <li>Synced voice + animation with scroll carving</li>
+      <li>One team member built a full service with zero web dev background!</li>
+      <li>Delivered smiles and usability – balanced humor and help</li>
+    </ul>
+  </div>
 
-<!-- NEW -->
-<a href="http://localhost:8000/quest"> <!-- Quest for Campus Embers -->
-<a href="http://localhost:8001/dino-laws"> <!-- DinoLaws -->
-<a href="http://localhost:8002/ancient-scrolls"> <!-- Ancient Scrolls -->
-Make sure the ports match the ones used by the microservices when running locally. If deployed, update with the correct hosted URLs.
+  <div class="section">
+    <h2>📚 Lessons Learned</h2>
+    <ul>
+      <li>FastAPI + AWS in one night: it’s possible</li>
+      <li>Gemini API is powerful – with the right prompts</li>
+      <li>Good UX = empathy + clarity</li>
+      <li>Even cavemen appreciate clean documentation</li>
+    </ul>
+  </div>
 
-🏆 Achievements
-Deployed full-stack mini services working together
+  <div class="section">
+    <h2>🗺️ What’s Next</h2>
+    <ul>
+      <li>Add tribes, roles, custom campus quests</li>
+      <li>More regions + universities for DinoLaws</li>
+      <li>Share achievements + scrolls socially</li>
+      <li>Mobile version for on-the-go dino-ing</li>
+      <li>Calendar sync with class/club data</li>
+    </ul>
+  </div>
 
-Learned AWS EC2, Gemini APIs, FastAPI, and syncing animations with voice
+  <div class="section">
+    <h2>🧡 Thank You</h2>
+    <p>Built with caffeine, survival instincts, and dino-roars during Bitcamp 2025. Shoutout to all mentors, hackers, and volunteers who made it a blast!</p>
+  </div>
 
-Kept the theme fun but practical – even impressed other hackers!
-
-Helped one teammate build a microservice solo for the first time!
-
-📚 Lessons Learned
-Humor + UI/UX = ❤️
-
-Prompt design makes or breaks your AI results
-
-Anyone can become a full stack developer in 24 hours with enough delulu and teammates
-
-Great hacks happen when everyone lifts each other up
-
-🗺️ Roadmap
-More tribes and roles to customize campus identity
-
-Mobile version to carry the Island everywhere
-
-Share scrolls and embers with friends via social media
-
-University-specific DinoLaws expansions
-
-Sync with class calendars, campus events, and clubs
-
-🧡 Credits
-Built with brain cells, backup snacks, and brute force by Team API during Bitcamp 2025.
-Big love to the mentors, volunteers, and dino-souls who cheered us on.
-
+</body>
+</html>

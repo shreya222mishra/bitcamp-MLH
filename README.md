@@ -27,19 +27,19 @@ Clone and integrate from: Ancient Scrolls Microservice https://github.com/sumi03
     <h2>🛠 Setup Guide</h2>
     1. Clone the Main Repository
 
-    <pre><code>git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name</code>
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
   2. Navigate to the App Folde
 
 
-    <pre><code>cd my-three-app</code></pre>
+    cd my-three-app
   3. Install Dependencie
 
-    <pre><code>npm install</code></pre>
+    npm install
   4. Start the Development Server
 
-    <pre><code>npm run dev</code></pre>
-    <p>Visit: <code>http://localhost:5173/</code> to view the app.</p>
+    npm run dev
+    Visit: http://localhost:5173/
   </div>
 
   <div class="section">
@@ -48,18 +48,30 @@ Clone and integrate from: Ancient Scrolls Microservice https://github.com/sumi03
   </div>
 <div class="section">
     <h2>🔗 Integrate Subservices</h2>
+1.cClone Each Microservice
 
-    <h3>Clone Each Microservice</h3>
-    <pre><code>git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
+
+    git clone https://github.com/Aditi08302/Quest-For-Campus-Embers
     git clone https://github.com/mikele5895/bitcamp-dino-laws-microservice
-    git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice</code></pre>
+    git clone https://github.com/sumi0309/bitcamp-ancient-scroll-microservice
+2. Run Subservices (Follow Their Individual README Setup)
+Each service will expose a REST API endpoint (usually something like http://localhost:8000/endpoint)
+
+3. Update index2.html with Live Service Links
+Replace placeholder or mock links in your index2.html with the actual endpoints. For example:
 
 
 
-    <h3>Update <code>index2.html</code> Links</h3>
-    <pre><code>&lt;a href="http://localhost:8000/quest"&gt;Quest for Campus Embers&lt;/a&gt;
-&lt;a href="http://localhost:8001/dino-laws"&gt;DinoLaws&lt;/a&gt;
-&lt;a href="http://localhost:8002/ancient-scrolls"&gt;Ancient Scrolls&lt;/a&gt;</code></pre>
+   
+
+    <!-- OLD -->
+<!-- <a href="/quest.html"> -->
+
+<!-- NEW -->
+<a href="http://localhost:8000/quest"> <!-- Quest for Campus Embers -->
+<a href="http://localhost:8001/dino-laws"> <!-- DinoLaws -->
+<a href="http://localhost:8002/ancient-scrolls"> <!-- Ancient Scrolls -->
+
   </div>
 
   <div class="section">

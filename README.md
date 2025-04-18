@@ -1,45 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>API: A Prehistoric Island - README</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 2rem;
-      background: #fcf7f0;
-      color: #222;
-    }
-    h1, h2, h3 {
-      color: #3b3a36;
-    }
-    code {
-      background: #eee;
-      padding: 2px 5px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background: #eee;
-      padding: 1rem;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    a {
-      color: #d95d39;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-bottom: 3rem;
-    }
-  </style>
-</head>
+
 <body>
 
   <h1>🦕 API: A Prehistoric Island</h1>
